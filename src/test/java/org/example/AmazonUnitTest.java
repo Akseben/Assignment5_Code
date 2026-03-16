@@ -3,9 +3,7 @@ package org.example;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.sql.SQLException;
 import java.util.List;
 
 import org.example.Amazon.Amazon;
@@ -20,7 +18,6 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.Test;
 
 public class AmazonUnitTest {
