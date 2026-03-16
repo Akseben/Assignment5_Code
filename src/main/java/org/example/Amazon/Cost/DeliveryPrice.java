@@ -12,9 +12,9 @@ public class DeliveryPrice implements PriceRule {
 
         if(totalItems == 0)
             return 0;
-        if(totalItems >= 1 && totalItems <= 3)
+        if(totalItems <= 3) // changed to reduce redundancy and improve test coverage
             return 5;
-        if(totalItems >= 4 && totalItems <= 10)
+        if(totalItems <= 10) // changed to reduce redundancy and improve test coverage
             return 12.5;
 
         return 20.0;
